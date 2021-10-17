@@ -11,6 +11,7 @@
 		43F4468727169226003ECCB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F4468627169226003ECCB2 /* ContentView.swift */; };
 		43F446892716922A003ECCB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F446882716922A003ECCB2 /* Assets.xcassets */; };
 		43F4468C2716922A003ECCB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F4468B2716922A003ECCB2 /* Preview Assets.xcassets */; };
+		43F446942717EA53003ECCB2 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F446932717EA53003ECCB2 /* Body.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		43F446882716922A003ECCB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43F4468B2716922A003ECCB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43F4468D2716922A003ECCB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F446932717EA53003ECCB2 /* Body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				43F4468427169226003ECCB2 /* iOS_1101_Hw1App.swift */,
 				43F4468627169226003ECCB2 /* ContentView.swift */,
+				43F446932717EA53003ECCB2 /* Body.swift */,
 				43F446882716922A003ECCB2 /* Assets.xcassets */,
 				43F4468D2716922A003ECCB2 /* Info.plist */,
 				43F4468A2716922A003ECCB2 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F446942717EA53003ECCB2 /* Body.swift in Sources */,
 				43F4468727169226003ECCB2 /* ContentView.swift in Sources */,
 				43F4468527169226003ECCB2 /* iOS_1101_Hw1App.swift in Sources */,
 			);

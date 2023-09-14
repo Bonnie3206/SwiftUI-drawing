@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		43F4468127169226003ECCB2 /* iOS_1101_Hw1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_1101_Hw1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F4468127169226003ECCB2 /* SwiftUI-drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-drawing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F4468427169226003ECCB2 /* iOS_1101_Hw1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_1101_Hw1App.swift; sourceTree = "<group>"; };
 		43F4468627169226003ECCB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43F446882716922A003ECCB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		43F4467827169226003ECCB2 = {
 			isa = PBXGroup;
 			children = (
-				43F4468327169226003ECCB2 /* iOS_1101_Hw1 */,
+				43F4468327169226003ECCB2 /* SwiftUI-drawing */,
 				43F4468227169226003ECCB2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		43F4468227169226003ECCB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43F4468127169226003ECCB2 /* iOS_1101_Hw1.app */,
+				43F4468127169226003ECCB2 /* SwiftUI-drawing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43F4468327169226003ECCB2 /* iOS_1101_Hw1 */ = {
+		43F4468327169226003ECCB2 /* SwiftUI-drawing */ = {
 			isa = PBXGroup;
 			children = (
 				43F4468427169226003ECCB2 /* iOS_1101_Hw1App.swift */,
@@ -61,7 +61,7 @@
 				43F4468D2716922A003ECCB2 /* Info.plist */,
 				43F4468A2716922A003ECCB2 /* Preview Content */,
 			);
-			path = iOS_1101_Hw1;
+			path = "SwiftUI-drawing";
 			sourceTree = "<group>";
 		};
 		43F4468A2716922A003ECCB2 /* Preview Content */ = {
@@ -75,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43F4468027169226003ECCB2 /* iOS_1101_Hw1 */ = {
+		43F4468027169226003ECCB2 /* SwiftUI-drawing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43F446902716922A003ECCB2 /* Build configuration list for PBXNativeTarget "iOS_1101_Hw1" */;
+			buildConfigurationList = 43F446902716922A003ECCB2 /* Build configuration list for PBXNativeTarget "SwiftUI-drawing" */;
 			buildPhases = (
 				43F4467D27169226003ECCB2 /* Sources */,
 				43F4467E27169226003ECCB2 /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = iOS_1101_Hw1;
+			name = "SwiftUI-drawing";
 			productName = iOS_1101_Hw1;
-			productReference = 43F4468127169226003ECCB2 /* iOS_1101_Hw1.app */;
+			productReference = 43F4468127169226003ECCB2 /* SwiftUI-drawing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43F4467C27169226003ECCB2 /* Build configuration list for PBXProject "iOS_1101_Hw1" */;
+			buildConfigurationList = 43F4467C27169226003ECCB2 /* Build configuration list for PBXProject "SwiftUI-drawing" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43F4468027169226003ECCB2 /* iOS_1101_Hw1 */,
+				43F4468027169226003ECCB2 /* SwiftUI-drawing */,
 			);
 		};
 /* End PBXProject section */
@@ -272,16 +272,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS_1101_Hw1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-drawing/Preview Content\"";
 				DEVELOPMENT_TEAM = J886232PB6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS_1101_Hw1/Info.plist;
+				INFOPLIST_FILE = "SwiftUI-drawing/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.iOS-1101-Hw1";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.SwiftUI-drawing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,16 +294,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS_1101_Hw1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-drawing/Preview Content\"";
 				DEVELOPMENT_TEAM = J886232PB6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS_1101_Hw1/Info.plist;
+				INFOPLIST_FILE = "SwiftUI-drawing/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.iOS-1101-Hw1";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.SwiftUI-drawing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43F4467C27169226003ECCB2 /* Build configuration list for PBXProject "iOS_1101_Hw1" */ = {
+		43F4467C27169226003ECCB2 /* Build configuration list for PBXProject "SwiftUI-drawing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43F4468E2716922A003ECCB2 /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43F446902716922A003ECCB2 /* Build configuration list for PBXNativeTarget "iOS_1101_Hw1" */ = {
+		43F446902716922A003ECCB2 /* Build configuration list for PBXNativeTarget "SwiftUI-drawing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43F446912716922A003ECCB2 /* Debug */,
